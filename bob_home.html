@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bob’s Auto Parts</title>
+        <link rel="stylesheet" href="bob_layout.css">
+    </head>
+    <body>
+       <form>
+          <fieldset>
+             <legend>Customer FeedBack</legend>
+             <h1>Please complete this form to submit your feedback</h1> 
+            <table>
+                <tr>
+                    <td><label for="usrBase1">Mr</td>
+                    <td><input type="radio" name="userBase" id="usrBase1" value="Mr."></td>
+                    
+                    <td><label for="usrBase2">Mrs</td>
+                    <td><input type="radio" name="userBase" id="usrBase2" value="Mrs."></td>
+
+                    <td><label for="usrBase3">Ms</td>
+                    <td><input type="radio" name="userBase" id="usrBase3" value="Ms."></td>
+
+                    <td><label for="usrBase4">Dr</td>
+                    <td><input type="radio" name="userBase" id="usrBase4" value="Dr."></td>
+
+                    <td><label for="usrBase5">Prof</td>
+                    <td><input type="radio" name="userBase" id="usrBase5" value="Prof."></td>
+                </tr>
+                <tr>
+                    <td><label for="usrName">Name</td>
+                    <td><input type="text" name="userName" id="usrName"></td>
+                </tr>
+                <tr>
+                    <td><label for="usrEmail">Email</td>
+                    <td><input type="text" name="userEmail" id="usrEmail"></td>
+                </tr>
+                
+              </table>
+               <p>Select your response.</p>
+                  <select name="userResponse" id="usrRes">
+                     <option value="Excellent">Excellent</option>
+                     <option value="Good"> Good</option>
+                     <option value="Okay"> Okay</option>
+                     <option value="Bad"> Bad</option>
+                  </select>
+             
+              <h2>Comments</h2>
+              <textarea name="userComment" id="usrCom" cols="21" rows="12"></textarea>
+              <br>
+              <br>
+              <button>Submit</button>
+          </fieldset>
+       </form>
+    </body>
+</html>
